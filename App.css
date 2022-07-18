@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chunk {
+  display: flex;
+  flex-direction: row;
+}
