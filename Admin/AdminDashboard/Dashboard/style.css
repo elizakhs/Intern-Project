@@ -1,0 +1,25 @@
+#dashboard-counter {
+  text-align: center;
+  display: flex;
+  width: 1400px;
+  max-height: 250px;
+  background-color: #f8f8f8;
+}
+
+@media only screen and (max-width: 600px) {
+  #dashboard-counter {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #dashboard-counter {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,50 @@
+#user-mana {
+  display: flex;
+  width: 1550px;
+  overflow-x: hidden;
+}
+
+.button-float-right {
+  float: right;
+}
+
+#user-mana th {
+  border-bottom: 1px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: white;
+  color: black;
+}
+
+#user-mana {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 1600px;
+  background-color: white;
+  margin: 5px;
+  margin-top: 150px;
+  margin-left: 22%;
+}
+
+#user-mana td,
+#user-mana th {
+  text-align: center;
+  width: auto;
+}
+
+#user-mana tr:hover {
+  background-color: #ddd;
+}
+
+.action-column td {
+  width: max-content;
+}
+
+.roles-management-component {
+  background-color: white;
+  margin: 15px 15px;
+}
+
+.dropdown {
+  width: 25px;
+}

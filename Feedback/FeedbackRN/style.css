@@ -1,0 +1,32 @@
+.feedback-center {
+  position: absolute;
+  bottom: 0;
+  top: 90%;
+  left: 0;
+  margin: 150px;
+}
+.feedback-center h2 {
+  font-size: 20px;
+}
+button {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  width: 100px;
+  height: 38px;
+  background-color: #20419a;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 40px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  text-align: justify;
+  font-family: Mulish;
+}

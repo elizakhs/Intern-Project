@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+#FAQAddCC .addfaqcc {
+  background-color: #f2f2f2;
+  padding: 20px;
+  float: right;
+  text-align: left;
+}
+
+#FAQAddCC input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+}
+
+#FAQAddCC .select-section {
+  width: 180px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 15px;
+}
+
+#FAQAddCC .select-order {
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 15px;
+}
+
+#FAQAddCC .textarea-answer {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+  height: 150px;
+  float: right;
+}
+
+#FAQAddCC .textarea-question {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+  height: 100px;
+  float: right;
+}
+
+#FAQAddCC .question-label {
+  text-align: left;
+  float: right;
+}
+
+#FAQAddCC .answer-label {
+  text-align: left;
+  float: right;
+}
+
+#FAQAddCC label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+#FAQAddCC .display-row {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  column-count: 2;
+  column-gap: 8px;
+  float: right;
+}
+
+#FAQAddCC .display-column {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  column-count: 2;
+  column-gap: 8px;
+}
+
+#FAQAddCC .float-left {
+  float: left;
+}
+
+#FAQAddCC .float-right {
+  float: right;
+  padding-right: 10px;
+}
+
+#FAQAddCC .float-center {
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#FAQAddCC #visible {
+  float: right;
+  margin: 5px;
+  font-weight: bold;
+}
+
+#FAQAddCC .switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  float: right;
+  margin: 5px;
+}
+
+#FAQAddCC .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#FAQAddCC .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#FAQAddCC .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#FAQAddCC input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* To slide the toggle */
+#FAQAddCC input:checked + .slider {
+  background-color: #2196f3;
+}
+
+#FAQAddCC input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+/* Rounded sliders */
+#FAQAddCC .slider.round {
+  border-radius: 34px;
+}
+
+#FAQAddCC .slider.round:before {
+  border-radius: 50%;
+}

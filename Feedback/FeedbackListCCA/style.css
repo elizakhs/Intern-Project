@@ -1,0 +1,69 @@
+#FeedbackLCCA {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin-top: 1%;
+  text-align: center;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#FeedbackLCCA table {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  table-layout: fixed;
+}
+
+#FeedbackLCCA thead {
+  background-color: #38b09d;
+  font-size: 24px;
+  color: white;
+}
+
+#FeedbackLCCA .tdashboard {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+#FeedbackLCCA .title {
+  display: inline;
+  float: left;
+  font-size: 40px;
+  padding: 20px;
+}
+
+#FeedbackLCCA tbody tr td {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#FeedbackLCCA .pageBar {
+  float: right;
+  margin-top: 2%;
+}
+
+#FeedbackLCCA tfoot {
+  background-color: #38b09d;
+  height: 68px;
+}
+
+@media only screen and (max-width: 700px) {
+  #FeedbackLCCA {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #FeedbackLCCA {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+  }
+}

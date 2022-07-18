@@ -1,0 +1,90 @@
+thead {
+  background: #26afab;
+  color: white;
+  font-size: 20px;
+}
+
+table {
+  border-collapse: initial;
+  border: solid black 1px;
+  border-radius: 6px;
+  overflow: hidden;
+  table-layout: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.027);
+}
+
+.overall {
+  display: inline-block;
+  width: 85%;
+  height: 20%;
+  margin-top: 5%;
+}
+
+.Content-Nav {
+  display: inline;
+  float: left;
+}
+
+.Content-Header {
+  display: inline;
+  float: top;
+}
+
+.BookmarkList-EU {
+  display: inline;
+  padding: 2%;
+}
+
+.pageBar {
+  float: right;
+}
+
+a {
+  color: #2636c9;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+h1 {
+  display: inline;
+  float: left;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+tbody tr td {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+tfoot {
+  background-color: #38b09d;
+  height: 68px;
+}
+
+.foot {
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+}
+
+input {
+  color: blue;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+
+#recent-1 {
+  text-align: center;
+  max-width: 1400px;
+  height: 250px;
+}
+
+#recent-audit-log {
+  font-family: "Mulish", sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+}
+
+#recent-audit-log th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+  text-align: left;
+}
+
+#recent-audit-log td {
+  text-align: left;
+}
+
+#recent-auditlog tr:hover {
+  background-color: #ddd;
+}

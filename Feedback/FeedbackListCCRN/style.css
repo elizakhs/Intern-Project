@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@20;200;500;711;898&display=swap");
+
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 898;
+}
+
+.container-fblistccrn {
+  background-color: #ededed;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 50px;
+  margin: 80px;
+  margin-left: 170px;
+  padding-top: 10px;
+  padding: 30px;
+  width: 50%;
+  height: 100%;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+}
+.feedbackList {
+  background-color: #fffbfb;
+  font-family: "Mulish", sans-serif;
+  margin: 30;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.feedbackList tr,
+td {
+  text-align: justify;
+  padding: 10px;
+  width: auto;
+}
+
+.feedbackList th {
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  vertical-align: center;
+}
+.feedbackList img {
+  height: 35px;
+  width: 35px;
+  float: left;
+  display: block;
+}
+
+.read {
+  float: right;
+  text-align: center;
+  font-size: 10px;
+}
+
+.read table {
+  float: right;
+}
+
+.read td {
+  text-align: left;
+  width: auto;
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+.read img {
+  float: right;
+  width: 13px;
+  height: 15px;
+}
+.read button {
+  background: none;
+  border: none;
+  color: blue;
+}
+
+.HeaderName {
+  vertical-align: center;
+}
+
+.fblistccrn-table {
+  margin: 0%;
+  border: none;
+  width: 100%;
+  height: 30%;
+}
+
+.fblistccrn-table2 {
+  margin: 0%;
+  margin-left: 30px;
+  border: none;
+}

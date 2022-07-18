@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+
+.heading-app {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#RecentAppConfigList {
+  background-color: #f8f8f8;
+  font-family: "Mulish", sans-serif;
+  font-size: 15pt;
+  width: 450px;
+  height: 355px;
+}
+
+div {
+  font-size: 15px;
+}
+
+#recent-app,
+#pending-app {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #f8f8f8;
+  width: 80%;
+  justify-content: space-between;
+  table-layout: fixed;
+  margin: auto;
+}
+
+#recent-app th {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#PendingAppConfigList {
+  background-color: #f8f8f8;
+  font-family: "Mulish", sans-serif;
+  font-size: 15pt;
+  width: 450px;
+  height: 355px;
+}
+
+@media only screen and (max-width: 600px) {
+  #PendingAppConfigList,
+  #RecentAppConfigList {
+    width: 200px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #PendingAppConfigList,
+  #RecentAppConfigList {
+    width: 300px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+  }
+}

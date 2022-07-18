@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap%22");
+
+* {
+  box-sizing: border-box;
+}
+.display-column {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  column-count: 2;
+  column-gap: 8px;
+  justify-content: center;
+}
+
+.textarea-app {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+  height: 50px;
+}
+
+.float-center-app {
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container-deleteuser {
+  /* border-radius: 5px; */
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 250px;
+  float: right;
+}
+
+.title-deleteuser {
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-deleteuser-1 {
+  /* border-radius: 5px; */
+  background-color: #f2f2f2;
+  padding: 30px;
+  width: 450px;
+  float: right;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 4px; */
+  resize: vertical;
+  font-size: 15px;
+}
+
+.textarea-name-del {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+  height: max-content;
+}
+
+.textarea-userrole-del {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+  height: max-content;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.container-delete {
+  /* border-radius: 5px; */
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 30%;
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.title-deleteuser {
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.float-center {
+  align-items: center;
+}

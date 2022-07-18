@@ -1,0 +1,30 @@
+#counter-widget {
+  background-color: #00a19c;
+  color: white;
+  border-radius: 5px;
+  width: 450px;
+  height: 180px;
+  font-family: "Mulish", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  #counter-widget {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #counter-widget {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#fill {
+  height: 100%;
+}
