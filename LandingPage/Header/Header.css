@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+
+.canvas {
+  display: flex;
+  flex-direction: column;
+  background-color: #27323c;
+  position: absolute;
+  max-width: 100%;
+  width: 1600px;
+  height: 150px;
+  font-size: 15px;
+  font-family: "Mulish";
+  font-weight: bold;
+}

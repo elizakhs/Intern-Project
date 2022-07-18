@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
+#fraud-settings {
+  display: flex;
+  width: 1550px;
+  overflow-x: hidden;
+  margin-left: 23%;
+}
+
+#fraud-title {
+  margin-top: 190px;
+  font-family: "Mulish", sans-serif;
+  align-items: flex-start;
+}
+
+.button-float-right {
+  float: right;
+}
+
+#fraud {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 1000px;
+  border: 1px solid black !important;
+  background-color: white;
+  margin: 5px;
+}
+
+#fraud th {
+  border-bottom: 1px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: white;
+  color: black;
+}
+
+#fraud td,
+#fraud th {
+  width: auto;
+  text-align: center;
+}
+
+#fraud tr:hover {
+  background-color: #ddd;
+}
+
+.action-column td {
+  width: max-content;
+}
+
+.fraud-management-component {
+  background-color: white;
+  margin: 15px 15px;
+}
+
+.fraud-management-component button {
+  margin-right: 35%;
+}
+
+.pageBar {
+  margin-left: 860px;
+  margin-top: 15px;
+}
+
+#id,
+#term {
+  cursor: pointer;
+}

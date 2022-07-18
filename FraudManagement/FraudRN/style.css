@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@20;200;500;711;898&display=swap');
+
+.word {
+  font-family: 'Mulish', sans-serif;
+  padding-top: 3pt;
+  padding-bottom: 3pt;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.word label {
+  margin-left: 7px;
+  margin-right: 7px;
+}

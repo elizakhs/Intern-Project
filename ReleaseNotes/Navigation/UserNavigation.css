@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap%22");
+
+.UserNav {
+  text-align: center;
+  height: 102vh;
+  background: #27323c;
+  padding-top: 10px;
+  overflow: hidden;
+  max-width: 150px;
+  float: left;
+  position: relative;
+}
+
+.profilepic {
+  width: 70px;
+  height: 70px;
+}
+
+.UserNav h2 {
+  font-size: 10pt;
+  color: #fff;
+}
+
+.UserNav h3 {
+  font-size: 8pt;
+  color: #fff;
+}
+
+.link {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link a {
+  text-decoration: none;
+  padding: 6px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.link ul {
+  padding: 0;
+  margin: 0%;
+}
+
+.link ul li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.link ul li a {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.link ul li a:hover,
+.link ul li a:active {
+  background: #818b9c;
+}
+
+.link ul li a svg {
+  margin-right: 10px;
+  height: 30px;
+  width: 35px;
+}
+
+.profile-icon {
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+}
+
+.dashboardLogo {
+  width: 40px;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}

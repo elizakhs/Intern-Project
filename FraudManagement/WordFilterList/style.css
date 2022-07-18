@@ -1,0 +1,121 @@
+#WordFilterListCC {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin-top: 10%;
+  margin-left: 5%;
+  position: relative;
+  text-align: center;
+}
+
+#WordFilterListCC table {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  table-layout: fixed;
+}
+
+#WordFilterListCC thead {
+  background-color: #38b09d;
+  font-size: 24px;
+  color: white;
+}
+
+#WordFilterListCC .tdashboard {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+#WordFilterListCC .title {
+  display: inline;
+  float: left;
+  font-size: 40px;
+  padding: 20px;
+}
+#WordFilterListCC .term {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+#WordFilterListCC .desc {
+  display: inline;
+  float: left;
+  text-align: left;
+  font-size: 18px;
+  padding: 20px;
+}
+
+#WordFilterListCC tbody tr td {
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#WordFilterListCC th {
+  background-color: #38b09d;
+  text-align: center;
+}
+
+#WordFilterListCC p {
+  padding-left: 10%;
+}
+
+#WordFilterListCC tfoot {
+  background-color: #38b09d;
+  height: 68px;
+}
+
+#WordFilterListCC .pageBar {
+  float: right;
+}
+
+@media only screen and (max-width: 700px) {
+  #WordFilterListCC {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #WordFilterListCC {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#WordFilterListCC .modal:nth-of-type(even) {
+  z-index: 1062 !important;
+}
+#WordFilterListCC .modal-backdrop.show:nth-of-type(even) {
+  z-index: 1061 !important;
+}
+.overlayBG {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.overlayContent {
+  position: relative;
+  box-sizing: border-box;
+  background: #fff;
+  width: 200px;
+  height: 200px;
+  top: 77%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  cursor: default;
+  z-index: 100;
+}

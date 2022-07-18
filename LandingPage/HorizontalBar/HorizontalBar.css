@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+
+/* .container-fluid {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+} */
+
+#midnav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f4f1f1;
+  position: absolute;
+  max-width: 100%;
+  width: 1600px;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.nav-1 {
+  display: flex;
+  margin: 15px 60px;
+}

@@ -1,0 +1,134 @@
+#DashboardCA {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin-top: 1%;
+  margin-left: 5%;
+  position: relative;
+  text-align: center;
+}
+
+#DashboardCA table {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  table-layout: fixed;
+}
+
+#DashboardCA thead {
+  vertical-align: middle;
+  background-color: #38b09d;
+  font-size: 24px;
+  color: white;
+}
+
+.content-summary{
+  background-color: #F3F3F3;
+  color: black;
+}
+
+.content-summary td {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.content-summary p{
+  font-size: 70px;
+}
+
+.content-summary sup{
+  vertical-align: text-top;
+  font-size: 24px;
+}
+
+#DashboardCA .add-content{
+  background-color: #20419A;
+  color: white;
+  font-size: 18px;
+  width: 228px;
+  height: 58px;
+}
+
+#DashboardCA .add-content:hover {
+  background-color: #4F70C9;
+}
+
+#DashboardCA th button{
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+#DashboardCA tbody tr th {
+  font-size: 18px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#DashboardCA .dropdown {
+  display: inline-block !important;
+  cursor: pointer !important;
+}
+
+#DashboardCA .dropdown p{
+  margin-top: 15px;
+}
+
+#DashboardCA .dropdown-menu {
+  float: right;
+  font-weight: normal;
+  background-color: #f9f9f9 !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+  z-index: 1 !important;
+  min-width: 200px !important;
+}
+
+#DashboardCA .form-check{
+  padding-left: 30px;
+}
+
+#DashboardCA .form-check:hover{
+  background-color: #e0e0e0;
+}
+
+#DashboardCA .form-control:focus,
+#DashboardCA .form-check-input:focus{
+  box-shadow: inset 0 -1px #ddd;
+  border-color: #c2c2c2;
+}
+
+#DashboardCA input:focus::placeholder{
+  color: transparent;
+}
+
+#DashboardCA tfoot {
+  background-color: #38b09d;
+  height: 68px;
+  color: white;
+}
+
+#DashboardCA .pageBar {
+  float: right;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 700px) {
+  #DashboardCA {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #DashboardCA {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+.sidenav {
+  background-color: #27323c;
+  height: 100vh;
+  width: 320px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}

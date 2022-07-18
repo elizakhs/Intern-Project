@@ -1,0 +1,24 @@
+.Content-Nav {
+  display: inline;
+  float: left;
+}
+
+.Content-Header {
+  display: inline;
+  float: top;
+}
+
+.Content-NormalEditor {
+  display: inline-block;
+  width: 60%;
+}
+
+.Content-App {
+  display: inline;
+  float: right;
+}
+
+#content-gap,
+.row {
+  grid-gap: 2px 13px;
+}

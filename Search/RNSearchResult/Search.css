@@ -1,0 +1,21 @@
+.Search {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Search input {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+ul li {
+  margin: 5px;
+  font-size: 18px;
+}

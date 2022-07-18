@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+
+.content {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 1600px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.content img {
+  margin: auto;
+}
+
+.content-1 {
+  margin: 0px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-2 {
+  margin: 0px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.images-1 {
+  height: 100px;
+  width: 100px;
+}
+
+.content button {
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .content img {
+    width: 0px;
+    height: 0px;
+  }
+}

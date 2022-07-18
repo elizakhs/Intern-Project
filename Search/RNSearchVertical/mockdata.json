@@ -1,0 +1,64 @@
+[
+    {
+        "ReleaseNoteID": "RN209",
+        "ReleaseNote" : "Release Note v2.9",
+        "Description" : "This release note is about the functionality",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+
+    {
+        "ReleaseNoteID": "RN208",
+        "ReleaseNote" : "Release Note v2.8",
+        "Description" : "This release note is about the bugs that are fixed",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+    {
+        "ReleaseNoteID": "RN207",
+        "ReleaseNote" : "Release Note v2.7",
+        "Description" : "This release note is about the new code",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+
+    {
+        "ReleaseNoteID": "RN206",
+        "ReleaseNote" : "Release Note v2.6",
+        "Description" : "This release note is mainly about the minor error",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+    {
+        "ReleaseNoteID": "RN205",
+        "ReleaseNote" : "Release Note v2.5",
+        "Description" : "This release note is about the new code",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+    {
+        "ReleaseNoteID": "RN204",
+        "ReleaseNote" : "Release Note v2.4",
+        "Description" : "This release note is to ensure",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+    {
+        "ReleaseNoteID": "RN203",
+        "ReleaseNote" : "Release Note v2.3",
+        "Description" : "This release note was released",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+    {
+        "ReleaseNoteID": "RN202",
+        "ReleaseNote" : "Release Note v2.2",
+        "Description" : "This release note is to fix the errors",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+    {
+        "ReleaseNoteID": "RN201",
+        "ReleaseNote" : "Release Note v2.1",
+        "Description" : "This release note explains useState",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    },
+    {
+        "ReleaseNoteID": "RN200",
+        "ReleaseNote" : "Release Note v2.0",
+        "Description" : "This release note is about the function of hooks",
+        "Link": "https://confluence.atlassian.com/jirasoftware/jira-software-release-notes-776821069.html"
+    }
+]

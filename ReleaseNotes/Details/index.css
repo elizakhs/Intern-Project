@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap%22");
+
+.superContain h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.superContain {
+  display: flex;
+  flex-direction: column;
+  font-family: "mulish";
+  width: 557px;
+  overflow: hidden;
+  margin-top: 21px;
+  padding-right: 10pt;
+  padding-top: 6pt;
+}
+
+.container-details {
+  background-color: #ededed;
+  font-size: 11pt;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.buttonContainer {
+  background-color: #e4dcdc;
+  border-radius: 0pt 0pt 5pt 5pt;
+  height: 60px;
+  position: center;
+  margin-bottom: 50px;
+}
+
+/* ================ Button ==================== */
+
+.superContain button {
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.darkgreen-detail {
+  background-color: #26afab;
+  color: white;
+  border: 1px solid #26afab;
+  padding: 5px 10px;
+  width: 100px;
+}
+.blue-detail {
+  background-color: #20419a;
+  color: white;
+  border: 1px solid #20419a;
+  padding: 10px 20px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.red-detail {
+  background-color: #fd4343;
+  color: white;
+  border: 1px solid #fd4343;
+  padding: 10px 20px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.green-detail {
+  background-color: #26afab;
+  color: white;
+  border: 1px solid #26afab;
+  padding: 10px 20px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.darkgreen-detail:hover {
+  background-color: #ffffff;
+  color: #26afab;
+  cursor: pointer;
+  border: 1px solid;
+}
+.blue-detail:hover {
+  background-color: #ffffff;
+  color: #20419a;
+  cursor: pointer;
+  border: 1px solid;
+}
+.red-detail:hover {
+  background-color: #ffffff;
+  color: #fd4343;
+  cursor: pointer;
+  border: 1px solid;
+}
+.green-detail:hover {
+  background-color: #ffffff;
+  color: #26afab;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.darkgreen-detail:active {
+  background-color: #26afab;
+}
+.blue-detail:active {
+  background-color: #20419a;
+}
+.red-detail:active {
+  background-color: #fd4343;
+}
+.green-detail:active {
+  background-color: #26afab;
+}
+
+/* ================== Tooltip ================== */
+.helpIcon {
+  width: 20px;
+}
+

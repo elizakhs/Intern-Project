@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tabletss: */
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  .col-6 {
+    width: 50%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+.LandingPage {
+  width: 80%;
+  height: auto;
+  display: inline-table;
+}
+
+.rectangle {
+  height: 30%;
+  width: auto;
+  margin: 35px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background: hsl(0, 0%, 77%);
+  position: relative;
+  border: 1px solid rgb(19, 18, 18);
+}
+
+.col-md-6 {
+  width: auto;
+  padding-left: 50px;
+  flex: 0 0 auto;
+  margin-left: 0px;
+}
+.row-1 {
+  padding-right: 0;
+  padding-left: -15px;
+  margin-left: -500px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vl {
+  border-left: 5px solid #777575;
+  height: 200px;
+  position: absolute;
+  left: 40%;
+  margin-left: 0px;
+  top: 50px;
+}
+
+.desc {
+  margin-left: -150px;
+  padding-right: 100px;
+  font-size: 18px;
+}
+.TopLeft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 36px;
+}
+#myInput {
+  background-image: url("../../../assets/images/search-icon.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  width: 75%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 5px solid rgb(184, 182, 182);
+  margin-bottom: 12px;
+  margin-left: -100px;
+}
+
+.list {
+  font-size: 25px;
+  font-family: mulish;
+  margin-left: 1.5em;
+}
+
+.list {
+  list-style: none;
+}
+li {
+  font-size: 20px;
+  font-family: mulish;
+}
+ul {
+  list-style: disc;
+  color: #38b09d;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 1em;
+}
